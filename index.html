@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1 {
+            text-align: center;
+        }
+        
+        .container1 h1 {
+            background-color: green;
+            color: white;
+        }
+        
+        .container1 p {
+            color: green;
+        }
+        
+        label {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <h1>SỞ THÍCH CỦA BẠN</h1>
+        <p>Họ và tên <input type="text" name="name" size="40"></p>
+        <p><span style="padding-right: 23px">Email</span> <input type="email" name="email" size="40"></p>
+        <p>Sở thích
+            <span style="padding-right:35px"><input type="checkbox">
+            <label style="margin-right: 4px" for="sport">Thể Thao</label>
+            <input type="checkbox">
+            <label for="music">Âm nhạc</label>
+            <input type="checkbox">
+            <label for="book">Đọc sách</label></span></br>
+            <span style="padding-left: 35px"> <input type="checkbox">
+            <label for="web">Lướt Web</label>
+            <input type="checkbox">
+            <label for="game">Chơi game</label>
+            <input type="checkbox">
+            <label for="cinema">Điện ảnh</label><br/></span>
+            <input type="checkbox">
+            <span style="padding-right: 165px"><label for="vacation">Du lịch</label></span><br/>
+            <br/>
+            <span style="padding-right: 75px"><input type="submit" value="Gửi thông tin">
+            <input type="submit" value="Nhập lại"></span>
+
+        </p>
+        <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+        <p><span style="padding-right: 5px">Họ và tên</span> <input type="text" name="name" size="40"></p>
+        <p><span style="padding-right: 6px">Ngày sinh</span><input type="dob" name="dob" size="40"></p>
+        <p style="margin-right: 100px"><span>Giới tính</span>
+            <input type="radio" name="gender" id="gender" style="margin-left: 50px">
+            <label for="male">Nam</label>
+            <input type="radio" name="gender" id="gender" style="margin-left: 58px">
+            <label for="female">Nữ</label></p>
+        <p><span style="padding-right: 16px">Địa chỉ</span>
+            <input type="text" name="address" id="address" style="width: 286px; height: 75px;"></p>
+        <label for="class" style="padding-right: 37px;">Lớp</label>
+        <select name="class" id="class" style="margin-right: 196px; width: 100px;">
+            <option value="1">--Chọn lớp--</option>
+            <option value="1">Lớp 1</option>
+            <option value="1">Lớp 2</option>
+         </select>
+        <p><span style="padding-right: 29px">Email</span><input type="email" name="email" size="40" style="margin-right: 3px"></p>
+        <p><span style="padding-right: 10px">Điện thoại</span><input type="phone" name="phone" size="40" style="margin-right: 12px"></p>
+        <input type="submit" name="register" id="register" value="Đăng kí">
+        <input type="submit" name="login" id="login" value="Nhập lại" style="margin-right: 97px">
+
+
+
+    </div>
+
+
+</body>
+
+</html>
